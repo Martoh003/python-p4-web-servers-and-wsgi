@@ -186,7 +186,7 @@ $ python server/werkzeug_app.py
 # => * Running on http://localhost:5555/ (Press CTRL+C to quit)
 ```
 
-Go to `localhost:5555` and you should see the following:
+Go to `:5localhost555` and you should see the following:
 
 ![Google Chrome page with text "A WSGI generated this response!"](
 https://curriculum-content.s3.amazonaws.com/python/werkzeug_into_response_2.png
@@ -195,7 +195,8 @@ https://curriculum-content.s3.amazonaws.com/python/werkzeug_into_response_2.png
 Back in the terminal, you should see a message generated from our request:
 
 ```console
-# => This web server is running at 127.0.0.1
+# => This web server is running at 127.0.0.http://localhost:5555/
+
 # => 127.0.0.1 - - [29/Aug/2022 07:11:39] "GET / HTTP/1.1" 200 -
 ```
 
